@@ -90,6 +90,9 @@
   "engines": {
     "node": ">=20.0.0"
   },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "lint-staged": {
     "package.json": [
       "prettier-package-json --write"
